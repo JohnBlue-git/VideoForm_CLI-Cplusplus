@@ -12,4 +12,4 @@ Click the project "windows_form.sln" in the folder, then the project opened by V
 
 ## Hardware and Software Requirement
 
-The project is developed on VS 2019, so it have to run by VS platform 2019 version.
+The project is developed on VS 2019, so it have to be run by VS platform 2019 version.
