@@ -15,7 +15,7 @@
 
 
 
-// »İ­n¥ı«Å§i,¬°¤F±Nclass LinkedList³]¦¨class ListNodeªºfriend
+// éœ€è¦å…ˆå®£å‘Š,ç‚ºäº†å°‡class LinkedListè¨­æˆclass ListNodeçš„friend
 template<class T>
 class LinkedList;    
 
@@ -44,7 +44,7 @@ template<class T>
 class LinkedList {
 protected:
 	//public:
-	// int size;	              // size¬O¥Î¨Ó°O¿ıLinked listªºªø«×, «D¥²­n
+	// int size;	              // sizeæ˜¯ç”¨ä¾†è¨˜éŒ„Linked listçš„é•·åº¦, éå¿…è¦
 	ListNode<T>* first;
 	ListNode<T>* end;
 public:
@@ -209,7 +209,8 @@ void LinkedList<T>::Delete(const unsigned int x) {
 		first = current->next;          // let first point to next node firstly
 		// !!! delete and prevent bug
 		delete current;              
-		current = 0;              
+		current = 0;
+		end = 0;
 	}
 	else {                              // other deleting condition (note that previous node is not NULL)
 		previous->next = current->next;
