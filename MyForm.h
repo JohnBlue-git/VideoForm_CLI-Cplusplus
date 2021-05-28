@@ -1,16 +1,5 @@
 ﻿#pragma once
 
-// i don't know
-/* 處理boost lib的問題 */
-/*
-#ifdef __cplusplus_cli
-#define generic __identifier(generic)
-#endif
-#include <boost/filesystem.hpp>
-#ifdef __cplusplus_cli
-#undef generic
-#endif
-*/
 
 //// our
 #include "linklist.h"
@@ -25,7 +14,7 @@
 #include <string>
 // file
 #include <sstream>
-#include <fstream> // file //
+#include <fstream>
 // other
 #include <ctime>
 #include "stdio.h"
