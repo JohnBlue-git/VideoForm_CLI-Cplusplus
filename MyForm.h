@@ -602,10 +602,16 @@ namespace windowsform {
 		}
 		// reset play button
 		private: void ResetPlay() {
+			//// reset button
 			selectVideo->Enabled = true;
 			playVideo->Enabled = true;
 			Only_Pause_Click->Enabled = false;
 			stopPlayButton->Enabled = false;
+			
+			
+			//// reset trackbar
+			SSetr.framePos = 0;
+			videoTrackbar->Value = 0;
 		}
 		// video playing loop
 		private: void Play() {
@@ -656,6 +662,11 @@ namespace windowsform {
 					//
 				}
 			}
+			//// reset ...
+			callback = gcnew MyCallback(this, &MyForm::ResetPlay);
+			this->BeginInvoke(callback);
+			//// release cap
+			SSetr.cap.release();
 		}
 		// for strarting the video thread
 		private: void start_cap() {
@@ -688,13 +699,6 @@ namespace windowsform {
 			if (SSetr.cap.isOpened() && thop != nullptr) {// && thop->IsAlive
 				//// stop thread
 				thop->Abort();
-				
-				//// reset trackbar
-				SSetr.framePos = 0;
-				videoTrackbar->Value = 0;
-
-				//// release cap
-				SSetr.cap.release();
 			}
 		}
 
