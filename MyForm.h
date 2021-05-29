@@ -631,8 +631,8 @@ namespace windowsform {
 					}
 					// pos update
 					SSetr.framePos = SSetr.cap.get(CAP_PROP_POS_FRAMES);
-					callback = gcnew MyCallback(this, &MyForm::videoTrackbar_Set);
-					this->BeginInvoke(callback);
+					callback = gcnew MyCallback(this, &MyForm::videoTrackbar_Set);// delegation
+					this->BeginInvoke(callback);                                  // asynchronous callback
 					// playing with period
 					Thread::Sleep(SSetr.fps);
 					// pause thread
@@ -663,8 +663,8 @@ namespace windowsform {
 				}
 			}
 			//// reset ...
-			callback = gcnew MyCallback(this, &MyForm::ResetPlay);
-			this->BeginInvoke(callback);
+			callback = gcnew MyCallback(this, &MyForm::ResetPlay);// delegation
+			this->BeginInvoke(callback);                          // asynchronous callback
 			//// release cap
 			SSetr.cap.release();
 		}
