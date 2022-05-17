@@ -1,18 +1,16 @@
-## form_videoplaying_Cplusplus
+## Videoform_CLI-Cplusplus
 
-form_videoplaying_Cplusplus is form application for displaying MDI technique as well as video threading technique. 
-Owing to private issue, it is not the same coding as the project mentioned in the resume, and some functions are deleted, consequently.
-
-## Declaration
-
-Yet, due to uploading difficulty, only a few important header files and .cpp files are shown on GitHub.
+A is form project with MDI and video stream functions, which is supported by WinForm and OpenCV.
 
 ## Confriguration of coding
 
-MDI.cpp works as the main function in which MainForm object is runing as an application.
-MainForm object can dynamically create multiple MyForm object, and MainForm object will be set as parent for MyForm object.
-Each MyForm object can handle one thread for video playing.
-Additionally, a template linkedlist have been employed fully over this project.
+MDI.cpp works as the main function in where MainForm object is allocated and run as an form application.
+
+MainForm class can dynamically allocate multiple MyForm objects in which each MyForm object can handle one video thread
+
+, and MainForm object will be set as parent for each MyForm object.
+
+Additionally, template linkedlist class is made and has been employed fully over this project.
 
 ## Link of complete VS project
 
