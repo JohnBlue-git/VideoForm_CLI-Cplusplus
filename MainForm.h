@@ -1,3 +1,15 @@
+/*
+Auther: JohnBlue
+Time: 2021/5
+Platform: VS 2017
+Object: It is a application form for video playing.
+Thech:
+MDI is used for dynamic allocating the number of video can playing at a time.
+For showing up child form and doing MDI, overhead or form->show() is used as strategy.
+Since opencv is in C++ yet the form is derived from CLR, component like cv::Mat cannot be the memeber of form class;
+thereby, extern variable is applied in this project.
+*/
+
 #pragma once
 #include "MyForm.h"
 #include "Overhead.h"
