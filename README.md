@@ -6,8 +6,14 @@ A is form project with MDI and video stream functions, which is supported by Win
 1.
 MDI.cpp works as the main function in which MainForm object is allocated and run as form application.
 
+where
+
+MainForm class in MainForm.h
+
+MyForm class in MyForm.h
+
 2.
-MainForm class can allocate multiple MyForm objects (in Overhead.h : Base class) where each MyForm object can handle one video thread
+MainForm class can allocate multiple MyForm objects (allocated in Overhead.h : Base class) where each MyForm object can handle one video thread
 
 , and MainForm object will be set as parent for each MyForm object.
 
