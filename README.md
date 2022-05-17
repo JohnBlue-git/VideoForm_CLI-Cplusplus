@@ -18,7 +18,7 @@ Therefore, Base class in Overhead.h is used, and MyForm objects will be called t
 Then we will have several UI threads: One is the thread of MainForm class, and others are the threads of MyForm class.)
 
 3.
-Additionally, template linkedlist class is made and has been employed fully over this project.
+Additionally, template linkedlist class (in likedlist.h) is made and has been employed fully over this project.
 
 ## Declaration
 
