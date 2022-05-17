@@ -17,7 +17,7 @@ namespace windowsform {
 	using namespace System::Threading;
 
 	/// <summary>
-	/// MainForm ªººK­n
+	/// MainForm çš„æ‘˜è¦
 	/// </summary>
 	public ref class MainForm : public System::Windows::Forms::Form
 	{
@@ -26,13 +26,13 @@ namespace windowsform {
 		{
 			InitializeComponent();
 			//
-			//TODO:  ¦b¦¹¥[¤J«Øºc¨ç¦¡µ{¦¡½X
+			//TODO:  åœ¨æ­¤åŠ å…¥å»ºæ§‹å‡½å¼ç¨‹å¼ç¢¼
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// ²M°£¥ô¦ó¨Ï¥Î¤¤ªº¸ê·½¡C
+		/// æ¸…é™¤ä»»ä½•ä½¿ç”¨ä¸­çš„è³‡æºã€‚
 		/// </summary>
 		~MainForm()
 		{
@@ -61,37 +61,37 @@ namespace windowsform {
 		}
 	private: System::Windows::Forms::MenuStrip^  menuStrip1;
 	protected:
-	private: System::Windows::Forms::ToolStripMenuItem^  ÀÉ®×ToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  ·s¼W¤lµøµ¡ToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  ±Æ¦CToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  ¦ê¦CToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  ««ª½ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  æª”æ¡ˆToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  æ–°å¢å­è¦–çª—ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  æ’åˆ—ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  ä¸²åˆ—ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  å‚ç›´ToolStripMenuItem;
 
 	private:
 		int form_num;
 
-	private: System::Windows::Forms::ToolStripMenuItem^  ¤ô¥­ToolStripMenuItem;
-	private: System::Windows::Forms::ToolStripMenuItem^  ÀËµø¤lµøµ¡ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  æ°´å¹³ToolStripMenuItem;
+	private: System::Windows::Forms::ToolStripMenuItem^  æª¢è¦–å­è¦–çª—ToolStripMenuItem;
 			 /// <summary>
-		/// ³]­p¤u¨ã©Ò»İªºÅÜ¼Æ¡C
+		/// è¨­è¨ˆå·¥å…·æ‰€éœ€çš„è®Šæ•¸ã€‚
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// ¦¹¬°³]­p¤u¨ã¤ä´©©Ò»İªº¤èªk - ½Ğ¤Å¨Ï¥Îµ{¦¡½X½s¿è¾¹­×§ï
-		/// ³o­Ó¤èªkªº¤º®e¡C
+		/// æ­¤ç‚ºè¨­è¨ˆå·¥å…·æ”¯æ´æ‰€éœ€çš„æ–¹æ³• - è«‹å‹¿ä½¿ç”¨ç¨‹å¼ç¢¼ç·¨è¼¯å™¨ä¿®æ”¹
+		/// é€™å€‹æ–¹æ³•çš„å…§å®¹ã€‚
 		/// </summary>
 		void InitializeComponent(void)
 		{
 			this->menuStrip1 = (gcnew System::Windows::Forms::MenuStrip());
-			this->ÀÉ®×ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->·s¼W¤lµøµ¡ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->±Æ¦CToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->¦ê¦CToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->««ª½ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->¤ô¥­ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->ÀËµø¤lµøµ¡ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->æª”æ¡ˆToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->æ–°å¢å­è¦–çª—ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->æ’åˆ—ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->ä¸²åˆ—ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->å‚ç›´ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->æ°´å¹³ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->æª¢è¦–å­è¦–çª—ToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->menuStrip1->SuspendLayout();
 			this->SuspendLayout();
 			// 
@@ -99,66 +99,66 @@ namespace windowsform {
 			// 
 			this->menuStrip1->ImageScalingSize = System::Drawing::Size(24, 24);
 			this->menuStrip1->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
-				this->ÀÉ®×ToolStripMenuItem,
-					this->±Æ¦CToolStripMenuItem, this->ÀËµø¤lµøµ¡ToolStripMenuItem
+				this->æª”æ¡ˆToolStripMenuItem,
+					this->æ’åˆ—ToolStripMenuItem, this->æª¢è¦–å­è¦–çª—ToolStripMenuItem
 			});
 			this->menuStrip1->Location = System::Drawing::Point(0, 0);
-			this->menuStrip1->MdiWindowListItem = this->ÀËµø¤lµøµ¡ToolStripMenuItem;
+			this->menuStrip1->MdiWindowListItem = this->æª¢è¦–å­è¦–çª—ToolStripMenuItem;
 			this->menuStrip1->Name = L"menuStrip1";
 			this->menuStrip1->Size = System::Drawing::Size(1378, 31);
 			this->menuStrip1->TabIndex = 0;
 			this->menuStrip1->Text = L"menuStrip1";
 			// 
-			// ÀÉ®×ToolStripMenuItem
+			// æª”æ¡ˆToolStripMenuItem
 			// 
-			this->ÀÉ®×ToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->·s¼W¤lµøµ¡ToolStripMenuItem });
-			this->ÀÉ®×ToolStripMenuItem->Name = L"ÀÉ®×ToolStripMenuItem";
-			this->ÀÉ®×ToolStripMenuItem->Size = System::Drawing::Size(58, 27);
-			this->ÀÉ®×ToolStripMenuItem->Text = L"ÀÉ®×";
+			this->æª”æ¡ˆToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->æ–°å¢å­è¦–çª—ToolStripMenuItem });
+			this->æª”æ¡ˆToolStripMenuItem->Name = L"æª”æ¡ˆToolStripMenuItem";
+			this->æª”æ¡ˆToolStripMenuItem->Size = System::Drawing::Size(58, 27);
+			this->æª”æ¡ˆToolStripMenuItem->Text = L"æª”æ¡ˆ";
 			// 
-			// ·s¼W¤lµøµ¡ToolStripMenuItem
+			// æ–°å¢å­è¦–çª—ToolStripMenuItem
 			// 
-			this->·s¼W¤lµøµ¡ToolStripMenuItem->Name = L"·s¼W¤lµøµ¡ToolStripMenuItem";
-			this->·s¼W¤lµøµ¡ToolStripMenuItem->Size = System::Drawing::Size(182, 30);
-			this->·s¼W¤lµøµ¡ToolStripMenuItem->Text = L"·s¼W¤lµøµ¡";
-			this->·s¼W¤lµøµ¡ToolStripMenuItem->Click += gcnew System::EventHandler(this, &MainForm::newForm1ToolStripMenuItem_Click);
+			this->æ–°å¢å­è¦–çª—ToolStripMenuItem->Name = L"æ–°å¢å­è¦–çª—ToolStripMenuItem";
+			this->æ–°å¢å­è¦–çª—ToolStripMenuItem->Size = System::Drawing::Size(182, 30);
+			this->æ–°å¢å­è¦–çª—ToolStripMenuItem->Text = L"æ–°å¢å­è¦–çª—";
+			this->æ–°å¢å­è¦–çª—ToolStripMenuItem->Click += gcnew System::EventHandler(this, &MainForm::newForm1ToolStripMenuItem_Click);
 			// 
-			// ±Æ¦CToolStripMenuItem
+			// æ’åˆ—ToolStripMenuItem
 			// 
-			this->±Æ¦CToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
-				this->¦ê¦CToolStripMenuItem,
-					this->««ª½ToolStripMenuItem, this->¤ô¥­ToolStripMenuItem
+			this->æ’åˆ—ToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(3) {
+				this->ä¸²åˆ—ToolStripMenuItem,
+					this->å‚ç›´ToolStripMenuItem, this->æ°´å¹³ToolStripMenuItem
 			});
-			this->±Æ¦CToolStripMenuItem->Name = L"±Æ¦CToolStripMenuItem";
-			this->±Æ¦CToolStripMenuItem->Size = System::Drawing::Size(58, 27);
-			this->±Æ¦CToolStripMenuItem->Text = L"±Æ¦C";
+			this->æ’åˆ—ToolStripMenuItem->Name = L"æ’åˆ—ToolStripMenuItem";
+			this->æ’åˆ—ToolStripMenuItem->Size = System::Drawing::Size(58, 27);
+			this->æ’åˆ—ToolStripMenuItem->Text = L"æ’åˆ—";
 			// 
-			// ¦ê¦CToolStripMenuItem
+			// ä¸²åˆ—ToolStripMenuItem
 			// 
-			this->¦ê¦CToolStripMenuItem->Name = L"¦ê¦CToolStripMenuItem";
-			this->¦ê¦CToolStripMenuItem->Size = System::Drawing::Size(128, 30);
-			this->¦ê¦CToolStripMenuItem->Text = L"¦ê¦C";
-			this->¦ê¦CToolStripMenuItem->Click += gcnew System::EventHandler(this, &MainForm::cascadeToolStripMenuItem_Click);
+			this->ä¸²åˆ—ToolStripMenuItem->Name = L"ä¸²åˆ—ToolStripMenuItem";
+			this->ä¸²åˆ—ToolStripMenuItem->Size = System::Drawing::Size(128, 30);
+			this->ä¸²åˆ—ToolStripMenuItem->Text = L"ä¸²åˆ—";
+			this->ä¸²åˆ—ToolStripMenuItem->Click += gcnew System::EventHandler(this, &MainForm::cascadeToolStripMenuItem_Click);
 			// 
-			// ««ª½ToolStripMenuItem
+			// å‚ç›´ToolStripMenuItem
 			// 
-			this->««ª½ToolStripMenuItem->Name = L"««ª½ToolStripMenuItem";
-			this->««ª½ToolStripMenuItem->Size = System::Drawing::Size(128, 30);
-			this->««ª½ToolStripMenuItem->Text = L"««ª½";
-			this->««ª½ToolStripMenuItem->Click += gcnew System::EventHandler(this, &MainForm::verticalToolStripMenuItem_Click);
+			this->å‚ç›´ToolStripMenuItem->Name = L"å‚ç›´ToolStripMenuItem";
+			this->å‚ç›´ToolStripMenuItem->Size = System::Drawing::Size(128, 30);
+			this->å‚ç›´ToolStripMenuItem->Text = L"å‚ç›´";
+			this->å‚ç›´ToolStripMenuItem->Click += gcnew System::EventHandler(this, &MainForm::verticalToolStripMenuItem_Click);
 			// 
-			// ¤ô¥­ToolStripMenuItem
+			// æ°´å¹³ToolStripMenuItem
 			// 
-			this->¤ô¥­ToolStripMenuItem->Name = L"¤ô¥­ToolStripMenuItem";
-			this->¤ô¥­ToolStripMenuItem->Size = System::Drawing::Size(128, 30);
-			this->¤ô¥­ToolStripMenuItem->Text = L"¤ô¥­";
-			this->¤ô¥­ToolStripMenuItem->Click += gcnew System::EventHandler(this, &MainForm::horizontalToolStripMenuItem_Click);
+			this->æ°´å¹³ToolStripMenuItem->Name = L"æ°´å¹³ToolStripMenuItem";
+			this->æ°´å¹³ToolStripMenuItem->Size = System::Drawing::Size(128, 30);
+			this->æ°´å¹³ToolStripMenuItem->Text = L"æ°´å¹³";
+			this->æ°´å¹³ToolStripMenuItem->Click += gcnew System::EventHandler(this, &MainForm::horizontalToolStripMenuItem_Click);
 			// 
-			// ÀËµø¤lµøµ¡ToolStripMenuItem
+			// æª¢è¦–å­è¦–çª—ToolStripMenuItem
 			// 
-			this->ÀËµø¤lµøµ¡ToolStripMenuItem->Name = L"ÀËµø¤lµøµ¡ToolStripMenuItem";
-			this->ÀËµø¤lµøµ¡ToolStripMenuItem->Size = System::Drawing::Size(112, 27);
-			this->ÀËµø¤lµøµ¡ToolStripMenuItem->Text = L"ÀËµø¤lµøµ¡";
+			this->æª¢è¦–å­è¦–çª—ToolStripMenuItem->Name = L"æª¢è¦–å­è¦–çª—ToolStripMenuItem";
+			this->æª¢è¦–å­è¦–çª—ToolStripMenuItem->Size = System::Drawing::Size(112, 27);
+			this->æª¢è¦–å­è¦–çª—ToolStripMenuItem->Text = L"æª¢è¦–å­è¦–çª—";
 			// 
 			// MainForm
 			// 
@@ -169,7 +169,7 @@ namespace windowsform {
 			this->IsMdiContainer = true;
 			this->MainMenuStrip = this->menuStrip1;
 			this->Name = L"MainForm";
-			this->Text = L"¹q¤lÆ[¹î­û";
+			this->Text = L"é›»å­è§€å¯Ÿå“¡";
 			this->FormClosing += gcnew System::Windows::Forms::FormClosingEventHandler(this, &MainForm::CloseF);
 			this->Load += gcnew System::EventHandler(this, &MainForm::Form_Load);
 			this->menuStrip1->ResumeLayout(false);
@@ -210,7 +210,9 @@ namespace windowsform {
 			//f->CheckForIllegalCrossThreadCalls = false;
 			//f->MdiParent = this;
 			//f->Show();
-			//System::Windows::Forms::Application::Run(f);// not allowed
+			
+			//System::Windows::Forms::Application::Run(f);// not allowed, Application::Run suppose to open only once at a time //https://stackoverflow.com/questions/5200292/application-runform-vs-form-show
+			
 			//f->ShowDialog();// ShowDialog cannot use with MdiParent
 
 			// updating number
