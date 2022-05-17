@@ -25,3 +25,7 @@ Additionally, template linkedlist class (in likedlist.h) is made and has been em
 In this project, several UI threads are created by creating Threads in MyForm class.
 
 Though, it could be unnecessary to create several UI threads in one application, we have shown it is possible to thread a childern form.   
+
+## Video Demonstration
+
+There is a Demonstration_MDI_VideoForm.mp4 for demonstration
