@@ -37,7 +37,6 @@ thereby, extern variable is applied in this project.
 #include <io.h>
 // close black window in beginning
 #include <wingdi.h>
-#pragma comment(lib, "libhpdf.lib")// libharu //
 #pragma comment(linker, "/subsystem:\"windows\" /entry:\"mainCRTStartup\"")
 
 
