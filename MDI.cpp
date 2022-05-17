@@ -5,8 +5,7 @@ Time: 2021/5
 
 Platform: VS 2017
 
-Object:
-It is a application form for video playing.
+Object: It is a application form for video playing.
 
 Thech:
 MDI is used for dynamic allocating the number of video can playing at a time.
@@ -31,7 +30,7 @@ int how_many;
 [STAThread]
 int main()
 {
-	// «Ø¥ß¥ô¦ó±±¨î¶µ¤§«e¡A¥ı±Ò¥Î Windows XP µøÄ±¤Æ®ÄªG
+	// å»ºç«‹ä»»ä½•æ§åˆ¶é …ä¹‹å‰ï¼Œå…ˆå•Ÿç”¨ Windows XP è¦–è¦ºåŒ–æ•ˆæœ
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
 	
