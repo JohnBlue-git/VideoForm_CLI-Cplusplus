@@ -2,6 +2,10 @@
 
 A is form project with MDI and video stream functions, which is supported by WinForm and OpenCV.
 
+## Video Demonstration
+
+There is a Demonstration_MDI_VideoForm.mp4 for demonstration
+
 ## Confriguration of coding
 1.
 MDI.cpp works as the main function in which MainForm object is allocated and run as form application.
@@ -32,6 +36,3 @@ In this project, several UI threads are created by creating Threads in MyForm cl
 
 Though, it could be unnecessary to create several UI threads in one application, we have shown it is possible to thread a childern form.   
 
-## Video Demonstration
-
-There is a Demonstration_MDI_VideoForm.mp4 for demonstration
