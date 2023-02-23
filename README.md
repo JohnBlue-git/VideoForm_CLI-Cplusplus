@@ -1,6 +1,6 @@
 ## VideoForm_CLI-Cplusplus
 
-A is form project with MDI and video stream functions, which is supported by WinForm and OpenCV.
+It is a form project with MDI and video stream functions, which is supported by WinForm and OpenCV.
 
 ## Video Demonstration
 
